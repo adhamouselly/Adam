@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>الدب و الضوء</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+  <!-- الزر -->
+  <button class="light-button" id="lightBtn" onclick="toggleLight()">💡</button>
+
+  <!-- الدب + الرسالة فوقه -->
+  <div class="bear-container" id="bearContainer">
+    <div class="bear-message" id="bearMsg"> </div>
+    <div class="bear" id="bear">
+      <div class="arm"></div>
+    </div>
+  </div>
+
+  <!-- الباب -->
+  <div class="doorway door" id="door">
+    <div class="door__side" id="doorSide">
+      <div class="door__panel"></div>
+      <div class="door__panel"></div>
+      <div class="door__panel"></div>
+      <div class="door__panel"></div>
+      <div class="door__handle"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
